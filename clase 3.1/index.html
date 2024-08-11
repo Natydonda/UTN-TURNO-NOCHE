@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+   <h1>Formularios en HTML</h1>
+   <form>
+    <label for="nombre">Ingrese su nomnre:</label>
+    <input type="text" minlength="4" maxlength="6" placeholder="Max Powel" id="nombre">
+    <input type="password" name="" id="">
+    <input type="number" min="5" max="10">
+    <input type="email" required>
+    <label for="mensaje">Ingrese su mensaje aquí:</label>
+    <textarea id="mensaje" maxlength="20" minlength="5" name="mensaje"></textarea>
+    <input type="submit" value="iniciar sesión">
+    <button type="submit"title="botón de registro">registrar</button>
+    <button type="button">validar si es segura</button>
+    <input type="file">
+    <input type="date">
+    <input type="datetime-local">
+    
+    <br>
+    <span>Selecciona tu lenguaje preferido</span>
+    <br>
+    <label for="HTML">HTML</label>
+    <input type="radio" id="HTML" name="Seleccionar lenguaje">
+    <br>
+    <label for="CSS">CSS</label>
+    <input type="radio" id="CSS"  name="Seleccionar lenguaje">
+    <br>
+    <label for="JavaScript">JavaScript</label>
+    <input type="radio" id="JavaScript"  name="Seleccionar lenguaje">
+    <br>
+    <span>Selecciona tus lenguajes conocidos</span>
+    <br>
+    <label for="HTML-conocido">HTML</label>
+    <input type="checkbox" id="HTML-conocido" name="lenguaje-conocido">
+    <br>
+    <label for="CSS-conocido">CSS</label>
+    <input type="checkbox" id="CSS-conocido"  name="lenguaje-conocido">
+    <br>
+    <label for="JavaScript-conocido">JavaScript</label>
+    <input type="checkbox" id="JavaScript-conocido"  name="lenguaje-conocido">
+    <br>
+    <label for="pais">Seleccionar un pais</label>
+    <select name="pais" id="pais">
+        <option value="">Argentina</option>
+        <option value="">Francia</option>
+        <option value="">Brasil</option>
+    </select>
+
+
+   </form> 
+</body>
+</html>
